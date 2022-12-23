@@ -1,8 +1,11 @@
 Login system using Node.js, Express.js and MongodDB
 
 Functionalities
+
 •	Create user
+
 •	Login
+
 Screenshots
 ![1](https://user-images.githubusercontent.com/119438857/209272989-ff4bc48a-1335-4681-919f-5c677853b916.png)
 ![2](https://user-images.githubusercontent.com/119438857/209273042-8d0ce39f-a24c-4835-8f94-c2c7c5562106.png)
