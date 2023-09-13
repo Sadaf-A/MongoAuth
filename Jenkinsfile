@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'node:14' 
+            args '-u node' 
+        }
+    }
 
     stages {
         stage('Checkout') {
@@ -10,7 +15,6 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                tool name: 'NodeJS', type: 'NodeJSInstallation'
                 sh 'npm install'
             }
         }
